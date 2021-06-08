@@ -10,7 +10,7 @@ function showShortcuts() {
     const k = (key, msg) => { console.log(color.black + color.bright + `\t${key}\t${msg}` + color.reset) };
 
     console.log('');
-    k('F1', 'Open result in Graphene');
+    k('F1', 'Open result in squirrelnavigator');
     k('F2', 'Hide/show preview window');
     k('Enter', isPager ? 'Fetch next page of results' : 'Open result in GUI browser');
     console.log('');
