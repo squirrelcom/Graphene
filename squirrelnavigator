@@ -57,8 +57,8 @@ open_history() {
         N)  # navigational link
             show_search url $url
             ;;
-        R)  # result opened in graphene
-            bash "$DIR/open_in_graphene.sh" $url
+        R)  # result opened in squirrelnavigator
+            bash "$DIR/open_in_squirrelnavigator.sh" $url
             ;;
         X)  # externally opened result
             open $url
